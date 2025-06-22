@@ -20,7 +20,7 @@ Recent advances in Vision Transformers (ViTs) and State Space Models (SSMs) have
 
 ## Overview
 <div align="center">
-<img src="Hybrid VMamba.png" />
+<img src="assets/Hybrid VMamba.png" />
 </div>
 
 ## Prerequisites
