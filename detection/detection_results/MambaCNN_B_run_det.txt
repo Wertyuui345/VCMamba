@@ -1,0 +1,312 @@
+apex is not installed
+apex is not installed
+apex is not installed
+apex is not installed
+Namespace(config='configs/mask_rcnn_mcnn_b_fpn_1x_coco.py', work_dir='detection_results/MambaCNN_B/', model='VCMamba_EfficientFormer_B', resume_from=None, auto_resume=False, no_validate=False, gpus=None, gpu_ids=None, gpu_id=0, seed=None, diff_seed=False, deterministic=False, options=None, cfg_options=None, launcher='pytorch', local_rank=0, auto_scale_lr=False)
+
+ model = VCMamba_EfficientFormer_B
+DIST LAUNCH
+GPU IDS
+range(0, 1)
+512
+{'type': 'Pretrained', 'checkpoint': '/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrid334Base.pth', 'resolution': 512}
+/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrid334Base.pth
+16.0
+512
+16
+torch.Size([1, 512, 7, 7])
+ORIGINAL 7
+NEW 16
+Position interpolate from 7x7 to 16x16
+torch.Size([1, 512, 7, 7])
+torch.Size([1, 512, 7, 7])
+missing_keys:  []
+unexpected_keys:  ['norm.weight', 'norm.bias', 'head.weight', 'head.bias', 'dist_head.weight', 'dist_head.bias']
+
+
+
+CONFIG OF MODEL: 
+{'type': 'MaskRCNN', 'pretrained': 'torchvision://resnet50', 'backbone': {'type': 'VCMamba_EfficientFormer_B', 'depth': 50, 'num_stages': 4, 'out_indices': (0, 1, 2, 3), 'frozen_stages': 1, 'norm_cfg': {'type': 'BN', 'requires_grad': True}, 'norm_eval': True, 'style': 'pytorch', 'init_cfg': {'type': 'Pretrained', 'checkpoint': '/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrid334Base.pth', 'resolution': 512}, 'pretrained': 'torchvision://resnet50'}, 'neck': {'type': 'FPN', 'in_channels': [64, 128, 320, 512], 'out_channels': 256, 'num_outs': 5}, 'rpn_head': {'type': 'RPNHead', 'in_channels': 256, 'feat_channels': 256, 'anchor_generator': {'type': 'AnchorGenerator', 'scales': [8], 'ratios': [0.5, 1.0, 2.0], 'strides': [4, 8, 16, 32, 64]}, 'bbox_coder': {'type': 'DeltaXYWHBBoxCoder', 'target_means': [0.0, 0.0, 0.0, 0.0], 'target_stds': [1.0, 1.0, 1.0, 1.0]}, 'loss_cls': {'type': 'CrossEntropyLoss', 'use_sigmoid': True, 'loss_weight': 1.0}, 'loss_bbox': {'type': 'L1Loss', 'loss_weight': 1.0}}, 'roi_head': {'type': 'StandardRoIHead', 'bbox_roi_extractor': {'type': 'SingleRoIExtractor', 'roi_layer': {'type': 'RoIAlign', 'output_size': 7, 'sampling_ratio': 0}, 'out_channels': 256, 'featmap_strides': [4, 8, 16, 32]}, 'bbox_head': {'type': 'Shared2FCBBoxHead', 'in_channels': 256, 'fc_out_channels': 1024, 'roi_feat_size': 7, 'num_classes': 80, 'bbox_coder': {'type': 'DeltaXYWHBBoxCoder', 'target_means': [0.0, 0.0, 0.0, 0.0], 'target_stds': [0.1, 0.1, 0.2, 0.2]}, 'reg_class_agnostic': False, 'loss_cls': {'type': 'CrossEntropyLoss', 'use_sigmoid': False, 'loss_weight': 1.0}, 'loss_bbox': {'type': 'L1Loss', 'loss_weight': 1.0}}, 'mask_roi_extractor': {'type': 'SingleRoIExtractor', 'roi_layer': {'type': 'RoIAlign', 'output_size': 14, 'sampling_ratio': 0}, 'out_channels': 256, 'featmap_strides': [4, 8, 16, 32]}, 'mask_head': {'type': 'FCNMaskHead', 'num_convs': 4, 'in_channels': 256, 'conv_out_channels': 256, 'num_classes': 80, 'loss_mask': {'type': 'CrossEntropyLoss', 'use_mask': True, 'loss_weight': 1.0}}, 'train_cfg': {'assigner': {'type': 'MaxIoUAssigner', 'pos_iou_thr': 0.5, 'neg_iou_thr': 0.5, 'min_pos_iou': 0.5, 'match_low_quality': True, 'ignore_iof_thr': -1}, 'sampler': {'type': 'RandomSampler', 'num': 512, 'pos_fraction': 0.25, 'neg_pos_ub': -1, 'add_gt_as_proposals': True}, 'mask_size': 28, 'pos_weight': -1, 'debug': False}, 'test_cfg': {'score_thr': 0.05, 'nms': {'type': 'nms', 'iou_threshold': 0.5}, 'max_per_img': 100, 'mask_thr_binary': 0.5}, 'pretrained': 'torchvision://resnet50'}, 'train_cfg': {'rpn': {'assigner': {'type': 'MaxIoUAssigner', 'pos_iou_thr': 0.7, 'neg_iou_thr': 0.3, 'min_pos_iou': 0.3, 'match_low_quality': True, 'ignore_iof_thr': -1}, 'sampler': {'type': 'RandomSampler', 'num': 256, 'pos_fraction': 0.5, 'neg_pos_ub': -1, 'add_gt_as_proposals': False}, 'allowed_border': -1, 'pos_weight': -1, 'debug': False}, 'rpn_proposal': {'nms_pre': 2000, 'max_per_img': 1000, 'nms': {'type': 'nms', 'iou_threshold': 0.7}, 'min_bbox_size': 0}, 'rcnn': {'assigner': {'type': 'MaxIoUAssigner', 'pos_iou_thr': 0.5, 'neg_iou_thr': 0.5, 'min_pos_iou': 0.5, 'match_low_quality': True, 'ignore_iof_thr': -1}, 'sampler': {'type': 'RandomSampler', 'num': 512, 'pos_fraction': 0.25, 'neg_pos_ub': -1, 'add_gt_as_proposals': True}, 'mask_size': 28, 'pos_weight': -1, 'debug': False}}, 'test_cfg': {'rpn': {'nms_pre': 1000, 'max_per_img': 1000, 'nms': {'type': 'nms', 'iou_threshold': 0.7}, 'min_bbox_size': 0}, 'rcnn': {'score_thr': 0.05, 'nms': {'type': 'nms', 'iou_threshold': 0.5}, 'max_per_img': 100, 'mask_thr_binary': 0.5}, 'mode': 'slide', 'crop_size': (512, 512), 'stride': (341, 341)}}
+
+
+
+loading annotations into memory...
+Done (t=18.16s)
+creating index...
+index created!
+
+
+
+TRAIN DETECTOR CONFIG OF MODEL: 
+Config (path: configs/mask_rcnn_mcnn_b_fpn_1x_coco.py): {'model': {'type': 'MaskRCNN', 'pretrained': 'torchvision://resnet50', 'backbone': {'type': 'VCMamba_EfficientFormer_B', 'depth': 50, 'num_stages': 4, 'out_indices': (0, 1, 2, 3), 'frozen_stages': 1, 'norm_cfg': {'type': 'BN', 'requires_grad': True}, 'norm_eval': True, 'style': 'pytorch', 'init_cfg': {'type': 'Pretrained', 'checkpoint': '/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrid334Base.pth', 'resolution': 512}, 'pretrained': 'torchvision://resnet50'}, 'neck': {'type': 'FPN', 'in_channels': [64, 128, 320, 512], 'out_channels': 256, 'num_outs': 5}, 'rpn_head': {'type': 'RPNHead', 'in_channels': 256, 'feat_channels': 256, 'anchor_generator': {'type': 'AnchorGenerator', 'scales': [8], 'ratios': [0.5, 1.0, 2.0], 'strides': [4, 8, 16, 32, 64]}, 'bbox_coder': {'type': 'DeltaXYWHBBoxCoder', 'target_means': [0.0, 0.0, 0.0, 0.0], 'target_stds': [1.0, 1.0, 1.0, 1.0]}, 'loss_cls': {'type': 'CrossEntropyLoss', 'use_sigmoid': True, 'loss_weight': 1.0}, 'loss_bbox': {'type': 'L1Loss', 'loss_weight': 1.0}}, 'roi_head': {'type': 'StandardRoIHead', 'bbox_roi_extractor': {'type': 'SingleRoIExtractor', 'roi_layer': {'type': 'RoIAlign', 'output_size': 7, 'sampling_ratio': 0}, 'out_channels': 256, 'featmap_strides': [4, 8, 16, 32]}, 'bbox_head': {'type': 'Shared2FCBBoxHead', 'in_channels': 256, 'fc_out_channels': 1024, 'roi_feat_size': 7, 'num_classes': 80, 'bbox_coder': {'type': 'DeltaXYWHBBoxCoder', 'target_means': [0.0, 0.0, 0.0, 0.0], 'target_stds': [0.1, 0.1, 0.2, 0.2]}, 'reg_class_agnostic': False, 'loss_cls': {'type': 'CrossEntropyLoss', 'use_sigmoid': False, 'loss_weight': 1.0}, 'loss_bbox': {'type': 'L1Loss', 'loss_weight': 1.0}}, 'mask_roi_extractor': {'type': 'SingleRoIExtractor', 'roi_layer': {'type': 'RoIAlign', 'output_size': 14, 'sampling_ratio': 0}, 'out_channels': 256, 'featmap_strides': [4, 8, 16, 32]}, 'mask_head': {'type': 'FCNMaskHead', 'num_convs': 4, 'in_channels': 256, 'conv_out_channels': 256, 'num_classes': 80, 'loss_mask': {'type': 'CrossEntropyLoss', 'use_mask': True, 'loss_weight': 1.0}}, 'train_cfg': {'assigner': {'type': 'MaxIoUAssigner', 'pos_iou_thr': 0.5, 'neg_iou_thr': 0.5, 'min_pos_iou': 0.5, 'match_low_quality': True, 'ignore_iof_thr': -1}, 'sampler': {'type': 'RandomSampler', 'num': 512, 'pos_fraction': 0.25, 'neg_pos_ub': -1, 'add_gt_as_proposals': True}, 'mask_size': 28, 'pos_weight': -1, 'debug': False}, 'test_cfg': {'score_thr': 0.05, 'nms': {'type': 'nms', 'iou_threshold': 0.5}, 'max_per_img': 100, 'mask_thr_binary': 0.5}, 'pretrained': 'torchvision://resnet50'}, 'train_cfg': {'rpn': {'assigner': {'type': 'MaxIoUAssigner', 'pos_iou_thr': 0.7, 'neg_iou_thr': 0.3, 'min_pos_iou': 0.3, 'match_low_quality': True, 'ignore_iof_thr': -1}, 'sampler': {'type': 'RandomSampler', 'num': 256, 'pos_fraction': 0.5, 'neg_pos_ub': -1, 'add_gt_as_proposals': False}, 'allowed_border': -1, 'pos_weight': -1, 'debug': False}, 'rpn_proposal': {'nms_pre': 2000, 'max_per_img': 1000, 'nms': {'type': 'nms', 'iou_threshold': 0.7}, 'min_bbox_size': 0}, 'rcnn': {'assigner': {'type': 'MaxIoUAssigner', 'pos_iou_thr': 0.5, 'neg_iou_thr': 0.5, 'min_pos_iou': 0.5, 'match_low_quality': True, 'ignore_iof_thr': -1}, 'sampler': {'type': 'RandomSampler', 'num': 512, 'pos_fraction': 0.25, 'neg_pos_ub': -1, 'add_gt_as_proposals': True}, 'mask_size': 28, 'pos_weight': -1, 'debug': False}}, 'test_cfg': {'rpn': {'nms_pre': 1000, 'max_per_img': 1000, 'nms': {'type': 'nms', 'iou_threshold': 0.7}, 'min_bbox_size': 0}, 'rcnn': {'score_thr': 0.05, 'nms': {'type': 'nms', 'iou_threshold': 0.5}, 'max_per_img': 100, 'mask_thr_binary': 0.5}, 'mode': 'slide', 'crop_size': (512, 512), 'stride': (341, 341)}}, 'dataset_type': 'CocoDataset', 'data_root': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/', 'img_norm_cfg': {'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.12, 57.375], 'to_rgb': True}, 'train_pipeline': [{'type': 'LoadImageFromFile'}, {'type': 'LoadAnnotations', 'with_bbox': True, 'with_mask': True}, {'type': 'Resize', 'img_scale': (1333, 800), 'keep_ratio': True}, {'type': 'RandomFlip', 'flip_ratio': 0.5}, {'type': 'Normalize', 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.12, 57.375], 'to_rgb': True}, {'type': 'Pad', 'size_divisor': 32}, {'type': 'DefaultFormatBundle'}, {'type': 'Collect', 'keys': ['img', 'gt_bboxes', 'gt_labels', 'gt_masks']}], 'test_pipeline': [{'type': 'LoadImageFromFile'}, {'type': 'MultiScaleFlipAug', 'img_scale': (1333, 800), 'flip': False, 'transforms': [{'type': 'Resize', 'keep_ratio': True}, {'type': 'RandomFlip'}, {'type': 'Normalize', 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.12, 57.375], 'to_rgb': True}, {'type': 'Pad', 'size_divisor': 32}, {'type': 'ImageToTensor', 'keys': ['img']}, {'type': 'Collect', 'keys': ['img']}]}], 'data': {'samples_per_gpu': 1, 'workers_per_gpu': 2, 'train': {'type': 'CocoDataset', 'ann_file': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/annotations/instances_train2017.json', 'img_prefix': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/train2017/', 'pipeline': [{'type': 'LoadImageFromFile'}, {'type': 'LoadAnnotations', 'with_bbox': True, 'with_mask': True}, {'type': 'Resize', 'img_scale': (1333, 800), 'keep_ratio': True}, {'type': 'RandomFlip', 'flip_ratio': 0.5}, {'type': 'Normalize', 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.12, 57.375], 'to_rgb': True}, {'type': 'Pad', 'size_divisor': 32}, {'type': 'DefaultFormatBundle'}, {'type': 'Collect', 'keys': ['img', 'gt_bboxes', 'gt_labels', 'gt_masks']}]}, 'val': {'type': 'CocoDataset', 'ann_file': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/annotations/instances_val2017.json', 'img_prefix': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/val2017/', 'pipeline': [{'type': 'LoadImageFromFile'}, {'type': 'MultiScaleFlipAug', 'img_scale': (1333, 800), 'flip': False, 'transforms': [{'type': 'Resize', 'keep_ratio': True}, {'type': 'RandomFlip'}, {'type': 'Normalize', 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.12, 57.375], 'to_rgb': True}, {'type': 'Pad', 'size_divisor': 32}, {'type': 'ImageToTensor', 'keys': ['img']}, {'type': 'Collect', 'keys': ['img']}]}]}, 'test': {'type': 'CocoDataset', 'ann_file': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/annotations/instances_val2017.json', 'img_prefix': '/scratch/09816/wertyuui345/ls6/VCMamba/MSCOCO/val2017/', 'pipeline': [{'type': 'LoadImageFromFile'}, {'type': 'MultiScaleFlipAug', 'img_scale': (1333, 800), 'flip': False, 'transforms': [{'type': 'Resize', 'keep_ratio': True}, {'type': 'RandomFlip'}, {'type': 'Normalize', 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.12, 57.375], 'to_rgb': True}, {'type': 'Pad', 'size_divisor': 32}, {'type': 'ImageToTensor', 'keys': ['img']}, {'type': 'Collect', 'keys': ['img']}]}]}}, 'evaluation': {'metric': ['bbox', 'segm']}, 'optimizer': {'type': 'AdamW', 'lr': 0.0002, 'weight_decay': 0.05}, 'optimizer_config': {'grad_clip': None}, 'lr_config': {'policy': 'step', 'warmup': 'linear', 'warmup_iters': 500, 'warmup_ratio': 1e-06, 'step': [8, 11]}, 'runner': {'type': 'EpochBasedRunner', 'max_epochs': 12}, 'checkpoint_config': {'interval': 1, 'meta': {'mmdet_version': '2.28.0eda408a', 'CLASSES': ('person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush')}}, 'log_config': {'interval': 50, 'hooks': [{'type': 'TextLoggerHook'}]}, 'custom_hooks': [{'type': 'NumClassCheckHook'}], 'dist_params': {'backend': 'nccl'}, 'log_level': 'INFO', 'load_from': None, 'resume_from': None, 'workflow': [('train', 1)], 'crop_size': (512, 512), 'work_dir': 'detection_results/MambaCNN_B/', 'auto_resume': False, 'gpu_ids': range(0, 1), 'device': 'cuda', 'seed': 2111230603}
+
+
+
+
+
+\TRAIN DETECTOR MODEL: 
+MaskRCNN(
+  (backbone): MambaCNN(
+    (patch_embed): Sequential(
+      (0): Conv2d(3, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (1): SyncBatchNorm(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): GELU(approximate='none')
+      (3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (4): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (5): GELU(approximate='none')
+    )
+    (drop_path): DropPath()
+    (pos_drop): Dropout(p=0.0, inplace=False)
+    (network): ModuleList(
+      (0): ModuleList(
+        (0): FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256)
+            (mid_norm): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): Identity()
+        )
+        (1-3): 3 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256)
+            (mid_norm): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+      )
+      (1): Embedding(
+        (proj): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+        (norm): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ModuleList(
+        (0-3): 4 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=512)
+            (mid_norm): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+      )
+      (3): Embedding(
+        (proj): Conv2d(128, 320, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+        (norm): SyncBatchNorm(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (4): ModuleList(
+        (0-11): 12 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(1280, 1280, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=1280)
+            (mid_norm): SyncBatchNorm(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+      )
+      (5): Embedding(
+        (proj): Conv2d(320, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+        (norm): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (6): ModuleList(
+        (0-1): 2 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(2048, 2048, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=2048)
+            (mid_norm): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+        (2-5): 4 x PlainMambaLayer(
+          (norm): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (norm2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (mamba): PlainMamba2D(
+            (in_conv): Sequential(
+              (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(1, 1))
+              (1): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            )
+            (conv2d): Conv2d(1024, 1024, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=1024)
+            (act): SiLU()
+            (x_proj): Linear(in_features=1024, out_features=64, bias=False)
+            (dt_proj): Linear(in_features=32, out_features=1024, bias=True)
+            (norm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (out_conv): Sequential(
+              (0): ReLU()
+              (1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1))
+              (2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            )
+          )
+          (drop_path): DropPath()
+          (mlp): Mlp(
+            (fc1): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(2048, 2048, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=2048)
+            (mid_norm): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+      )
+    )
+  )
+  (neck): FPN(
+    (lateral_convs): ModuleList(
+      (0): ConvModule(
+        (conv): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): ConvModule(
+        (conv): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (2): ConvModule(
+        (conv): Conv2d(320, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (3): ConvModule(
+        (conv): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+    )
+    (fpn_convs): ModuleList(
+      (0-3): 4 x ConvModule(
+        (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+  )
+  init_cfg={'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+  (rpn_head): RPNHead(
+    (loss_cls): CrossEntropyLoss(avg_non_ignore=False)
+    (loss_bbox): L1Loss()
+    (rpn_conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (rpn_cls): Conv2d(256, 3, kernel_size=(1, 1), stride=(1, 1))
+    (rpn_reg): Conv2d(256, 12, kernel_size=(1, 1), stride=(1, 1))
+  )
+  init_cfg={'type': 'Normal', 'layer': 'Conv2d', 'std': 0.01}
+  (roi_head): StandardRoIHead(
+    (bbox_roi_extractor): SingleRoIExtractor(
+      (roi_layers): ModuleList(
+        (0): RoIAlign(output_size=(7, 7), spatial_scale=0.25, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+        (1): RoIAlign(output_size=(7, 7), spatial_scale=0.125, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+        (2): RoIAlign(output_size=(7, 7), spatial_scale=0.0625, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+        (3): RoIAlign(output_size=(7, 7), spatial_scale=0.03125, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+      )
+    )
+    (bbox_head): Shared2FCBBoxHead(
+      (loss_cls): CrossEntropyLoss(avg_non_ignore=False)
+      (loss_bbox): L1Loss()
+      (fc_cls): Linear(in_features=1024, out_features=81, bias=True)
+      (fc_reg): Linear(in_features=1024, out_features=320, bias=True)
+      (shared_convs): ModuleList()
+      (shared_fcs): ModuleList(
+        (0): Linear(in_features=12544, out_features=1024, bias=True)
+        (1): Linear(in_features=1024, out_features=1024, bias=True)
+      )
+      (cls_convs): ModuleList()
+      (cls_fcs): ModuleList()
+      (reg_convs): ModuleList()
+      (reg_fcs): ModuleList()
+      (relu): ReLU(inplace=True)
+    )
+    init_cfg=[{'type': 'Normal', 'std': 0.01, 'override': {'name': 'fc_cls'}}, {'type': 'Normal', 'std': 0.001, 'override': {'name': 'fc_reg'}}, {'type': 'Xavier', 'distribution': 'uniform', 'override': [{'name': 'shared_fcs'}, {'name': 'cls_fcs'}, {'name': 'reg_fcs'}]}]
+    (mask_roi_extractor): SingleRoIExtractor(
+      (roi_layers): ModuleList(
+        (0): RoIAlign(output_size=(14, 14), spatial_scale=0.25, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+        (1): RoIAlign(output_size=(14, 14), spatial_scale=0.125, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+        (2): RoIAlign(output_size=(14, 14), spatial_scale=0.0625, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+        (3): RoIAlign(output_size=(14, 14), spatial_scale=0.03125, sampling_ratio=0, pool_mode=avg, aligned=True, use_torchvision=False)
+      )
+    )
+    (mask_head): FCNMaskHead(
+      (loss_mask): CrossEntropyLoss(avg_non_ignore=False)
+      (convs): ModuleList(
+        (0-3): 4 x ConvModule(
+          (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (activate): ReLU(inplace=True)
+        )
+      )
+      (upsample): ConvTranspose2d(256, 256, kernel_size=(2, 2), stride=(2, 2))
+      (conv_logits): Conv2d(256, 80, kernel_size=(1, 1), stride=(1, 1))
+      (relu): ReLU(inplace=True)
+    )
+  )
+)
+
+
+
+c301-003:1901653:1901653 [0] NCCL INFO Bootstrap : Using ib0:192.168.41.3<0>
+c301-003:1901653:1901653 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+c301-003:1901653:1901653 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.20.5+cuda11.0
+c301-003:1901653:1901680 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB ib0:192.168.41.3<0>
+c301-003:1901653:1901680 [0] NCCL INFO Using non-device net plugin version 0
+c301-003:1901653:1901680 [0] NCCL INFO Using network IB
+c301-003:1901653:1901680 [0] NCCL INFO comm 0xc76e780 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 81000 commId 0xb384caf1c8ad6b9 - Init START
+c301-003:1901653:1901680 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,ffffffff,00000000,00000000
+c301-003:1901653:1901680 [0] NCCL INFO comm 0xc76e780 rank 0 nRanks 1 nNodes 1 localRanks 1 localRank 0 MNNVL 0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 00/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 01/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 02/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 03/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 04/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 05/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 06/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 07/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 08/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 09/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 10/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 11/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 12/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 13/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 14/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 15/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 16/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 17/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 18/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 19/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 20/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 21/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 22/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 23/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 24/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 25/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 26/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 27/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 28/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 29/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 30/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Channel 31/32 :    0
+c301-003:1901653:1901680 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1
+c301-003:1901653:1901680 [0] NCCL INFO P2P Chunksize set to 131072
+c301-003:1901653:1901680 [0] NCCL INFO Connected all rings
+c301-003:1901653:1901680 [0] NCCL INFO Connected all trees
+c301-003:1901653:1901680 [0] NCCL INFO 32 coll channels, 0 collnet channels, 0 nvls channels, 32 p2p channels, 32 p2p channels per peer
+c301-003:1901653:1901680 [0] NCCL INFO comm 0xc76e780 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 81000 commId 0xb384caf1c8ad6b9 - Init COMPLETE
+loading annotations into memory...
+Done (t=0.59s)
+creating index...
+index created!
+torch.Size([1, 512, 16, 16])

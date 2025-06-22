@@ -1,0 +1,8 @@
+/usr/bin/sh: /work/09816/wertyuui345/ls6/ls6/VCMamba/VCMamba/segmentation/MambaCNNRun.sh: No such file or directory
+srun: error: c317-013: task 6: Killed
+srun: error: c316-013: task 3: Killed
+srun: error: c317-004: task 5: Killed
+srun: error: c308-003: task 2: Killed
+srun: error: c317-003: task 4: Killed
+srun: Force Terminated StepId=2260683.0
+[mpiexec@c302-004.ls6.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c302-004 exited with status 137

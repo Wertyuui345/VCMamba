@@ -1,0 +1,3170 @@
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py:208: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+2025-03-26 14:06:21,159 - mmseg - INFO - Environment info:
+------------------------------------------------------------
+sys.platform: linux
+Python: 3.9.7 (default, Sep 30 2021, 18:59:18) [GCC Intel(R) C++ gcc 9.4 mode]
+CUDA available: True
+GPU 0,1,2: NVIDIA A100-PCIE-40GB
+CUDA_HOME: /work/02064/ajs2987/ls6/apps/cuda/11.8
+NVCC: Cuda compilation tools, release 11.8, V11.8.89
+GCC: icc (ICC) 19.1.1.217 20200306
+PyTorch: 2.4.1+cu118
+PyTorch compiling details: PyTorch built with:
+  - GCC 9.3
+  - C++ Version: 201703
+  - Intel(R) oneAPI Math Kernel Library Version 2022.2-Product Build 20220804 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v3.4.2 (Git Hash 1137e04ec0b5251ca2b4400a4fd3c667ce843d67)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.8
+  - NVCC architecture flags: -gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_90,code=sm_90
+  - CuDNN 90.1
+  - Magma 2.6.1
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.8, CUDNN_VERSION=9.1.0, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=pedantic -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=2.4.1, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, 
+
+TorchVision: 0.19.1+cu118
+OpenCV: 4.8.1
+MMCV: 1.7.2
+MMCV Compiler: GCC 9.4
+MMCV CUDA Compiler: 11.8
+MMSegmentation: 0.29.1+eda408a
+------------------------------------------------------------
+
+2025-03-26 14:06:22,404 - mmseg - INFO - Distributed training: True
+2025-03-26 14:06:23,631 - mmseg - INFO - Config:
+norm_cfg = dict(type='SyncBN', requires_grad=True)
+model = dict(
+    type='EncoderDecoder',
+    pretrained='open-mmlab://resnet50_v1c',
+    backbone=dict(
+        type='VCMamba_EfficientFormer_S',
+        depth=50,
+        num_stages=4,
+        out_indices=(0, 1, 2, 3),
+        dilations=(1, 1, 1, 1),
+        strides=(1, 2, 2, 2),
+        norm_cfg=dict(type='SyncBN', requires_grad=True),
+        norm_eval=False,
+        style='pytorch',
+        contract_dilation=True,
+        init_cfg=dict(
+            type='Pretrained',
+            checkpoint=
+            '/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrids2s24Small.pth',
+            resolution=512)),
+    neck=dict(
+        type='FPN',
+        in_channels=[32, 64, 144, 288],
+        out_channels=256,
+        num_outs=4),
+    decode_head=dict(
+        type='FPNHead',
+        in_channels=[256, 256, 256, 256],
+        in_index=[0, 1, 2, 3],
+        feature_strides=[4, 8, 16, 32],
+        channels=128,
+        dropout_ratio=0.1,
+        num_classes=150,
+        norm_cfg=dict(type='SyncBN', requires_grad=True),
+        align_corners=False,
+        loss_decode=dict(
+            type='CrossEntropyLoss', use_sigmoid=False, loss_weight=1.0)),
+    train_cfg=dict(),
+    test_cfg=dict(mode='slide', crop_size=(512, 512), stride=(341, 341)))
+dataset_type = 'ADE20KDataset'
+data_root = '/scratch/09816/wertyuui345/ls6/VCMamba/ADE20K/ADE20K/ADEChallengeData2016'
+img_norm_cfg = dict(
+    mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
+crop_size = (512, 512)
+train_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', reduce_zero_label=True),
+    dict(type='Resize', img_scale=(2048, 512), ratio_range=(0.5, 2.0)),
+    dict(type='RandomCrop', crop_size=(512, 512), cat_max_ratio=0.75),
+    dict(type='RandomFlip', prob=0.5),
+    dict(type='PhotoMetricDistortion'),
+    dict(
+        type='Normalize',
+        mean=[123.675, 116.28, 103.53],
+        std=[58.395, 57.12, 57.375],
+        to_rgb=True),
+    dict(type='Pad', size=(512, 512), pad_val=0, seg_pad_val=255),
+    dict(type='DefaultFormatBundle'),
+    dict(type='Collect', keys=['img', 'gt_semantic_seg'])
+]
+test_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(
+        type='MultiScaleFlipAug',
+        img_scale=(2048, 512),
+        flip=False,
+        transforms=[
+            dict(type='AlignResize', keep_ratio=True, size_divisor=32),
+            dict(type='RandomFlip'),
+            dict(
+                type='Normalize',
+                mean=[123.675, 116.28, 103.53],
+                std=[58.395, 57.12, 57.375],
+                to_rgb=True),
+            dict(type='ImageToTensor', keys=['img']),
+            dict(type='Collect', keys=['img'])
+        ])
+]
+data = dict(
+    samples_per_gpu=4,
+    workers_per_gpu=4,
+    train=dict(
+        type='RepeatDataset',
+        times=50,
+        dataset=dict(
+            type='ADE20KDataset',
+            data_root=
+            '/scratch/09816/wertyuui345/ls6/VCMamba/ADE20K/ADE20K/ADEChallengeData2016',
+            img_dir='images/training',
+            ann_dir='annotations/training',
+            pipeline=[
+                dict(type='LoadImageFromFile'),
+                dict(type='LoadAnnotations', reduce_zero_label=True),
+                dict(
+                    type='Resize',
+                    img_scale=(2048, 512),
+                    ratio_range=(0.5, 2.0)),
+                dict(
+                    type='RandomCrop',
+                    crop_size=(512, 512),
+                    cat_max_ratio=0.75),
+                dict(type='RandomFlip', prob=0.5),
+                dict(type='PhotoMetricDistortion'),
+                dict(
+                    type='Normalize',
+                    mean=[123.675, 116.28, 103.53],
+                    std=[58.395, 57.12, 57.375],
+                    to_rgb=True),
+                dict(type='Pad', size=(512, 512), pad_val=0, seg_pad_val=255),
+                dict(type='DefaultFormatBundle'),
+                dict(type='Collect', keys=['img', 'gt_semantic_seg'])
+            ])),
+    val=dict(
+        type='ADE20KDataset',
+        data_root=
+        '/scratch/09816/wertyuui345/ls6/VCMamba/ADE20K/ADE20K/ADEChallengeData2016',
+        img_dir='images/validation',
+        ann_dir='annotations/validation',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(
+                type='MultiScaleFlipAug',
+                img_scale=(2048, 512),
+                flip=False,
+                transforms=[
+                    dict(type='AlignResize', keep_ratio=True, size_divisor=32),
+                    dict(type='RandomFlip'),
+                    dict(
+                        type='Normalize',
+                        mean=[123.675, 116.28, 103.53],
+                        std=[58.395, 57.12, 57.375],
+                        to_rgb=True),
+                    dict(type='ImageToTensor', keys=['img']),
+                    dict(type='Collect', keys=['img'])
+                ])
+        ]),
+    test=dict(
+        type='ADE20KDataset',
+        data_root=
+        '/scratch/09816/wertyuui345/ls6/VCMamba/ADE20K/ADE20K/ADEChallengeData2016',
+        img_dir='images/validation',
+        ann_dir='annotations/validation',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(
+                type='MultiScaleFlipAug',
+                img_scale=(2048, 512),
+                flip=False,
+                transforms=[
+                    dict(type='AlignResize', keep_ratio=True, size_divisor=32),
+                    dict(type='RandomFlip'),
+                    dict(
+                        type='Normalize',
+                        mean=[123.675, 116.28, 103.53],
+                        std=[58.395, 57.12, 57.375],
+                        to_rgb=True),
+                    dict(type='ImageToTensor', keys=['img']),
+                    dict(type='Collect', keys=['img'])
+                ])
+        ]))
+log_config = dict(
+    interval=50, hooks=[dict(type='TextLoggerHook', by_epoch=False)])
+dist_params = dict(backend='nccl')
+log_level = 'INFO'
+load_from = None
+resume_from = None
+workflow = [('train', 1)]
+cudnn_benchmark = True
+gpu_multiples = 2
+optimizer = dict(type='AdamW', lr=0.0002, weight_decay=0.0001)
+optimizer_config = dict()
+lr_config = dict(policy='poly', power=0.9, min_lr=0.0, by_epoch=False)
+runner = dict(type='IterBasedRunner', max_iters=40000)
+checkpoint_config = dict(by_epoch=False, interval=4000)
+evaluation = dict(interval=4000, metric='mIoU')
+work_dir = 'semantic_results/MambaCNN_S/'
+auto_resume = False
+gpu_ids = range(0, 24)
+
+2025-03-26 14:06:26,366 - mmseg - INFO - load checkpoint from local path: /work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrids2s24Small.pth
+2025-03-26 14:06:29,779 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,781 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,781 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,781 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,782 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,782 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,782 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,782 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,783 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,783 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,783 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,784 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,784 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,785 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,785 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,789 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,789 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,789 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,791 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,792 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,792 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,791 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,792 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,792 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,793 - mmcv - INFO - initialize FPN with init_cfg {'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+2025-03-26 14:06:29,793 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,793 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,794 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,794 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,794 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,794 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,794 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,795 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,795 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,795 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,798 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,798 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,801 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,801 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,801 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,804 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,804 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,804 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,804 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,804 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,806 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,813 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,814 - mmcv - INFO - initialize FPNHead with init_cfg {'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.pos_embed - torch.Size([1, 288, 16, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.0.weight - torch.Size([16, 3, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.0.bias - torch.Size([16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.1.weight - torch.Size([16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.1.bias - torch.Size([16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.3.weight - torch.Size([32, 16, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.3.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.4.weight - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.patch_embed.4.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.layer_scale_2 - torch.Size([32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.fc1.weight - torch.Size([128, 32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.fc1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.fc2.weight - torch.Size([32, 128, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.fc2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.mid.weight - torch.Size([128, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.mid.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.mid_norm.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.mid_norm.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.norm1.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.norm1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.norm2.weight - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.0.mlp.norm2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.1.layer_scale_2 - torch.Size([32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,826 - mmcv - INFO - 
+backbone.network.0.1.mlp.fc1.weight - torch.Size([128, 32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.fc1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.fc2.weight - torch.Size([32, 128, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.fc2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.mid.weight - torch.Size([128, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.mid.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.mid_norm.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.mid_norm.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.norm1.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.norm1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.norm2.weight - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.1.mlp.norm2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.layer_scale_2 - torch.Size([32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.fc1.weight - torch.Size([128, 32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.fc1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.fc2.weight - torch.Size([32, 128, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.fc2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.mid.weight - torch.Size([128, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.mid.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.mid_norm.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.mid_norm.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.norm1.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.norm1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.norm2.weight - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.2.mlp.norm2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.layer_scale_2 - torch.Size([32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.fc1.weight - torch.Size([128, 32, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.fc1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.fc2.weight - torch.Size([32, 128, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.fc2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.mid.weight - torch.Size([128, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.mid.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.mid_norm.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.mid_norm.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.norm1.weight - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,827 - mmcv - INFO - 
+backbone.network.0.3.mlp.norm1.bias - torch.Size([128]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.0.3.mlp.norm2.weight - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.0.3.mlp.norm2.bias - torch.Size([32]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.1.proj.weight - torch.Size([64, 32, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.1.proj.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.1.norm.weight - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.1.norm.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.layer_scale_2 - torch.Size([64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.fc1.weight - torch.Size([256, 64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.fc1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.fc2.weight - torch.Size([64, 256, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.fc2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.mid.weight - torch.Size([256, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.mid.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.mid_norm.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.mid_norm.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.norm1.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.norm1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.norm2.weight - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.0.mlp.norm2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.layer_scale_2 - torch.Size([64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.fc1.weight - torch.Size([256, 64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.fc1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.fc2.weight - torch.Size([64, 256, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.fc2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.mid.weight - torch.Size([256, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.mid.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.mid_norm.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.mid_norm.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.norm1.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.norm1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.norm2.weight - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.1.mlp.norm2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.2.layer_scale_2 - torch.Size([64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.2.mlp.fc1.weight - torch.Size([256, 64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,828 - mmcv - INFO - 
+backbone.network.2.2.mlp.fc1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.fc2.weight - torch.Size([64, 256, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.fc2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.mid.weight - torch.Size([256, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.mid.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.mid_norm.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.mid_norm.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.norm1.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.norm1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.norm2.weight - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.2.mlp.norm2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.layer_scale_2 - torch.Size([64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.fc1.weight - torch.Size([256, 64, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.fc1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.fc2.weight - torch.Size([64, 256, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.fc2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.mid.weight - torch.Size([256, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.mid.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.mid_norm.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.mid_norm.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.norm1.weight - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.norm1.bias - torch.Size([256]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.norm2.weight - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.2.3.mlp.norm2.bias - torch.Size([64]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.3.proj.weight - torch.Size([144, 64, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.3.proj.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.3.norm.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.3.norm.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,829 - mmcv - INFO - 
+backbone.network.4.0.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.0.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.0.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.0.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.0.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.1.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.2.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.3.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.3.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.3.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.3.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,830 - mmcv - INFO - 
+backbone.network.4.3.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.3.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.4.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.5.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.6.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,831 - mmcv - INFO - 
+backbone.network.4.6.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.6.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.7.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,832 - mmcv - INFO - 
+backbone.network.4.8.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.8.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.9.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.10.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.layer_scale_2 - torch.Size([144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.fc1.weight - torch.Size([576, 144, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.fc1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.fc2.weight - torch.Size([144, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.fc2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.mid.weight - torch.Size([576, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.mid.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.mid_norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,833 - mmcv - INFO - 
+backbone.network.4.11.mlp.mid_norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.4.11.mlp.norm1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.4.11.mlp.norm1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.4.11.mlp.norm2.weight - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.4.11.mlp.norm2.bias - torch.Size([144]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.5.proj.weight - torch.Size([288, 144, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.5.proj.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.5.norm.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.5.norm.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.layer_scale_2 - torch.Size([288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.0.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.layer_scale_2 - torch.Size([288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.1.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,834 - mmcv - INFO - 
+backbone.network.6.2.layer_scale_2 - torch.Size([288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.2.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.layer_scale_2 - torch.Size([288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.3.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.norm.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.norm.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.A_log - torch.Size([576, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.D - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.direction_Bs - torch.Size([5, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.in_conv.0.weight - torch.Size([576, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.in_conv.0.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.in_conv.1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,835 - mmcv - INFO - 
+backbone.network.6.4.mamba.in_conv.1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.conv2d.weight - torch.Size([576, 1, 7, 7]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.conv2d.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.x_proj.weight - torch.Size([50, 576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.dt_proj.weight - torch.Size([576, 18]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.dt_proj.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.out_conv.1.weight - torch.Size([288, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.out_conv.1.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.out_conv.2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mamba.out_conv.2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.4.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.norm.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.norm.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.A_log - torch.Size([576, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.D - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.direction_Bs - torch.Size([5, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.in_conv.0.weight - torch.Size([576, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.in_conv.0.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.in_conv.1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.in_conv.1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.conv2d.weight - torch.Size([576, 1, 7, 7]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,836 - mmcv - INFO - 
+backbone.network.6.5.mamba.conv2d.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.x_proj.weight - torch.Size([50, 576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.dt_proj.weight - torch.Size([576, 18]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.dt_proj.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.out_conv.1.weight - torch.Size([288, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.out_conv.1.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.out_conv.2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mamba.out_conv.2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.5.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.norm.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.norm.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.A_log - torch.Size([576, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.D - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.direction_Bs - torch.Size([5, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.in_conv.0.weight - torch.Size([576, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.in_conv.0.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.in_conv.1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.in_conv.1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.conv2d.weight - torch.Size([576, 1, 7, 7]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.conv2d.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,837 - mmcv - INFO - 
+backbone.network.6.6.mamba.x_proj.weight - torch.Size([50, 576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.dt_proj.weight - torch.Size([576, 18]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.dt_proj.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.out_conv.1.weight - torch.Size([288, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.out_conv.1.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.out_conv.2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mamba.out_conv.2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.6.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.norm.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.norm.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.A_log - torch.Size([576, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.D - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.direction_Bs - torch.Size([5, 16]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.in_conv.0.weight - torch.Size([576, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.in_conv.0.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.in_conv.1.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.in_conv.1.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.conv2d.weight - torch.Size([576, 1, 7, 7]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.conv2d.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.x_proj.weight - torch.Size([50, 576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.dt_proj.weight - torch.Size([576, 18]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.dt_proj.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,838 - mmcv - INFO - 
+backbone.network.6.7.mamba.norm.weight - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mamba.norm.bias - torch.Size([576]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mamba.out_conv.1.weight - torch.Size([288, 576, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mamba.out_conv.1.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mamba.out_conv.2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mamba.out_conv.2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.fc1.weight - torch.Size([1152, 288, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.fc1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.fc2.weight - torch.Size([288, 1152, 1, 1]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.fc2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.mid.weight - torch.Size([1152, 1, 3, 3]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.mid.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.mid_norm.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.mid_norm.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.norm1.weight - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.norm1.bias - torch.Size([1152]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.norm2.weight - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+backbone.network.6.7.mlp.norm2.bias - torch.Size([288]): 
+Initialized by user-defined `init_weights` in MambaCNN  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.0.conv.weight - torch.Size([256, 32, 1, 1]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.0.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.1.conv.weight - torch.Size([256, 64, 1, 1]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.1.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.2.conv.weight - torch.Size([256, 144, 1, 1]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.2.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.3.conv.weight - torch.Size([256, 288, 1, 1]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.lateral_convs.3.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.0.conv.weight - torch.Size([256, 256, 3, 3]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.0.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.1.conv.weight - torch.Size([256, 256, 3, 3]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.1.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.2.conv.weight - torch.Size([256, 256, 3, 3]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.2.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.3.conv.weight - torch.Size([256, 256, 3, 3]): 
+XavierInit: gain=1, distribution=uniform, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+neck.fpn_convs.3.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+decode_head.conv_seg.weight - torch.Size([150, 128, 1, 1]): 
+NormalInit: mean=0, std=0.01, bias=0 
+ 
+2025-03-26 14:06:29,839 - mmcv - INFO - 
+decode_head.conv_seg.bias - torch.Size([150]): 
+NormalInit: mean=0, std=0.01, bias=0 
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.0.0.conv.weight - torch.Size([128, 256, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.0.0.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.0.0.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.1.0.conv.weight - torch.Size([128, 256, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.1.0.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.1.0.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.2.0.conv.weight - torch.Size([128, 256, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.2.0.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.2.0.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.2.2.conv.weight - torch.Size([128, 128, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.2.2.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.2.2.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.0.conv.weight - torch.Size([128, 256, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.0.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.0.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.2.conv.weight - torch.Size([128, 128, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.2.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.2.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.4.conv.weight - torch.Size([128, 128, 3, 3]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.4.bn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,840 - mmcv - INFO - 
+decode_head.scale_heads.3.4.bn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of EncoderDecoder  
+ 
+2025-03-26 14:06:29,842 - mmseg - INFO - EncoderDecoder(
+  (backbone): MambaCNN(
+    (patch_embed): Sequential(
+      (0): Conv2d(3, 16, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (1): SyncBatchNorm(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): GELU(approximate='none')
+      (3): Conv2d(16, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (4): SyncBatchNorm(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (5): GELU(approximate='none')
+    )
+    (drop_path): DropPath()
+    (pos_drop): Dropout(p=0.0, inplace=False)
+    (network): ModuleList(
+      (0): ModuleList(
+        (0): FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(32, 128, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(128, 32, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=128)
+            (mid_norm): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): Identity()
+        )
+        (1-3): 3 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(32, 128, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(128, 32, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=128)
+            (mid_norm): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+      )
+      (1): Embedding(
+        (proj): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+        (norm): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ModuleList(
+        (0-3): 4 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256)
+            (mid_norm): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+      )
+      (3): Embedding(
+        (proj): Conv2d(64, 144, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+        (norm): SyncBatchNorm(144, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (4): ModuleList(
+        (0-11): 12 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(144, 576, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(576, 144, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(576, 576, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=576)
+            (mid_norm): SyncBatchNorm(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(144, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+      )
+      (5): Embedding(
+        (proj): Conv2d(144, 288, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+        (norm): SyncBatchNorm(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (6): ModuleList(
+        (0-3): 4 x FFN(
+          (mlp): Mlp(
+            (fc1): Conv2d(288, 1152, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(1152, 288, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(1152, 1152, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=1152)
+            (mid_norm): SyncBatchNorm(1152, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(1152, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (drop_path): DropPath()
+        )
+        (4-7): 4 x PlainMambaLayer(
+          (norm): SyncBatchNorm(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (norm2): SyncBatchNorm(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (mamba): PlainMamba2D(
+            (in_conv): Sequential(
+              (0): Conv2d(288, 576, kernel_size=(1, 1), stride=(1, 1))
+              (1): SyncBatchNorm(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            )
+            (conv2d): Conv2d(576, 576, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=576)
+            (act): SiLU()
+            (x_proj): Linear(in_features=576, out_features=50, bias=False)
+            (dt_proj): Linear(in_features=18, out_features=576, bias=True)
+            (norm): LayerNorm((576,), eps=1e-05, elementwise_affine=True)
+            (out_conv): Sequential(
+              (0): ReLU()
+              (1): Conv2d(576, 288, kernel_size=(1, 1), stride=(1, 1))
+              (2): SyncBatchNorm(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            )
+          )
+          (drop_path): DropPath()
+          (mlp): Mlp(
+            (fc1): Conv2d(288, 1152, kernel_size=(1, 1), stride=(1, 1))
+            (act): GELU(approximate='none')
+            (fc2): Conv2d(1152, 288, kernel_size=(1, 1), stride=(1, 1))
+            (drop): Dropout(p=0.0, inplace=False)
+            (mid): Conv2d(1152, 1152, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=1152)
+            (mid_norm): SyncBatchNorm(1152, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm1): SyncBatchNorm(1152, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (norm2): SyncBatchNorm(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+      )
+    )
+  )
+  (neck): FPN(
+    (lateral_convs): ModuleList(
+      (0): ConvModule(
+        (conv): Conv2d(32, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (1): ConvModule(
+        (conv): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (2): ConvModule(
+        (conv): Conv2d(144, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+      (3): ConvModule(
+        (conv): Conv2d(288, 256, kernel_size=(1, 1), stride=(1, 1))
+      )
+    )
+    (fpn_convs): ModuleList(
+      (0-3): 4 x ConvModule(
+        (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+  )
+  init_cfg={'type': 'Xavier', 'layer': 'Conv2d', 'distribution': 'uniform'}
+  (decode_head): FPNHead(
+    input_transform=multiple_select, ignore_index=255, align_corners=False
+    (loss_decode): CrossEntropyLoss(avg_non_ignore=False)
+    (conv_seg): Conv2d(128, 150, kernel_size=(1, 1), stride=(1, 1))
+    (dropout): Dropout2d(p=0.1, inplace=False)
+    (scale_heads): ModuleList(
+      (0): Sequential(
+        (0): ConvModule(
+          (conv): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+      )
+      (1): Sequential(
+        (0): ConvModule(
+          (conv): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+        (1): Upsample()
+      )
+      (2): Sequential(
+        (0): ConvModule(
+          (conv): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+        (1): Upsample()
+        (2): ConvModule(
+          (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+        (3): Upsample()
+      )
+      (3): Sequential(
+        (0): ConvModule(
+          (conv): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+        (1): Upsample()
+        (2): ConvModule(
+          (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+        (3): Upsample()
+        (4): ConvModule(
+          (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+        (5): Upsample()
+      )
+    )
+  )
+  init_cfg={'type': 'Normal', 'std': 0.01, 'override': {'name': 'conv_seg'}}
+)
+2025-03-26 14:06:32,172 - mmseg - INFO - Loaded 20210 images
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank3]:     main()
+[rank3]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank3]:     train_segmentor(
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank3]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank3]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank3]:     sampler = DistributedSampler(
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank3]:     self.seed = sync_random_seed(seed, device)
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank3]:     dist.broadcast(random_num, src=0)
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank3]:     return func(*args, **kwargs)
+[rank3]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank3]:     work = default_pg.broadcast([tensor], opts)
+[rank3]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, invalid usage (run with NCCL_DEBUG=WARN for details), NCCL version 2.20.5
+[rank3]: ncclInvalidUsage: This usually reflects invalid usage of NCCL library.
+[rank3]: Last error:
+[rank3]: Duplicate GPU detected : rank 3 and rank 5 both on CUDA device e2000
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank5]:     main()
+[rank5]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank5]:     train_segmentor(
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank5]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank5]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank5]:     sampler = DistributedSampler(
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank5]:     self.seed = sync_random_seed(seed, device)
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank5]:     dist.broadcast(random_num, src=0)
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank5]:     return func(*args, **kwargs)
+[rank5]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank5]:     work = default_pg.broadcast([tensor], opts)
+[rank5]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, invalid usage (run with NCCL_DEBUG=WARN for details), NCCL version 2.20.5
+[rank5]: ncclInvalidUsage: This usually reflects invalid usage of NCCL library.
+[rank5]: Last error:
+[rank5]: Duplicate GPU detected : rank 5 and rank 3 both on CUDA device e2000
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank4]:     main()
+[rank4]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank4]:     train_segmentor(
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank4]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank4]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank4]:     sampler = DistributedSampler(
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank4]:     self.seed = sync_random_seed(seed, device)
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank4]:     dist.broadcast(random_num, src=0)
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank4]:     return func(*args, **kwargs)
+[rank4]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank4]:     work = default_pg.broadcast([tensor], opts)
+[rank4]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank4]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank4]: Last error:
+[rank4]: socketProgress: Connection closed by remote peer c308-002-ib<58838>
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank7]:     main()
+[rank7]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank7]:     train_segmentor(
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank7]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank7]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank7]:     sampler = DistributedSampler(
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank7]:     self.seed = sync_random_seed(seed, device)
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank7]:     dist.broadcast(random_num, src=0)
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank7]:     return func(*args, **kwargs)
+[rank7]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank7]:     work = default_pg.broadcast([tensor], opts)
+[rank7]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank7]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank7]: Last error:
+[rank7]: socketProgress: Connection closed by remote peer c309-004-ib<55012>
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank8]:     main()
+[rank8]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank8]:     train_segmentor(
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank8]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank8]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank8]:     sampler = DistributedSampler(
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank8]:     self.seed = sync_random_seed(seed, device)
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank8]:     dist.broadcast(random_num, src=0)
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank8]:     return func(*args, **kwargs)
+[rank8]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank8]:     work = default_pg.broadcast([tensor], opts)
+[rank8]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank8]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank8]: Last error:
+[rank8]: socketProgress: Connection closed by remote peer c309-004-ib<40394>
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank6]:     main()
+[rank6]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank6]:     train_segmentor(
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank6]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank6]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank6]:     sampler = DistributedSampler(
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank6]:     self.seed = sync_random_seed(seed, device)
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank6]:     dist.broadcast(random_num, src=0)
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank6]:     return func(*args, **kwargs)
+[rank6]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank6]:     work = default_pg.broadcast([tensor], opts)
+[rank6]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank6]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank6]: Last error:
+[rank6]: socketProgress: Connection closed by remote peer c308-002-ib<36650>
+W0326 14:06:45.578868 22773473165632 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 16237 closing signal SIGTERM
+W0326 14:06:45.579205 22773473165632 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 16238 closing signal SIGTERM
+[rank10]: Traceback (most recent call last):
+[rank10]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank10]:     main()
+[rank10]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank10]:     train_segmentor(
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank10]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank10]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank10]:     sampler = DistributedSampler(
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank10]:     self.seed = sync_random_seed(seed, device)
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank10]:     dist.broadcast(random_num, src=0)
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank10]:     return func(*args, **kwargs)
+[rank10]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank10]:     work = default_pg.broadcast([tensor], opts)
+[rank10]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank10]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank10]: Last error:
+[rank10]: socketProgress: Connection closed by remote peer c315-003-ib<34208>
+[rank9]: Traceback (most recent call last):
+[rank9]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank9]:     main()
+[rank9]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank9]:     train_segmentor(
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank9]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank9]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank9]:     sampler = DistributedSampler(
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank9]:     self.seed = sync_random_seed(seed, device)
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank9]:     dist.broadcast(random_num, src=0)
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank9]:     return func(*args, **kwargs)
+[rank9]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank9]:     work = default_pg.broadcast([tensor], opts)
+[rank9]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank9]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank9]: Last error:
+[rank9]: socketProgress: Connection closed by remote peer c309-004-ib<60174>
+[rank11]: Traceback (most recent call last):
+[rank11]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank11]:     main()
+[rank11]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank11]:     train_segmentor(
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank11]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank11]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank11]:     sampler = DistributedSampler(
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank11]:     self.seed = sync_random_seed(seed, device)
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank11]:     dist.broadcast(random_num, src=0)
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank11]:     return func(*args, **kwargs)
+[rank11]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank11]:     work = default_pg.broadcast([tensor], opts)
+[rank11]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank11]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank11]: Last error:
+[rank11]: socketProgress: Connection closed by remote peer c315-003-ib<55100>
+[rank14]: Traceback (most recent call last):
+[rank14]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank14]:     main()
+[rank14]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank14]:     train_segmentor(
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank14]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank14]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank14]:     sampler = DistributedSampler(
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank14]:     self.seed = sync_random_seed(seed, device)
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank14]:     dist.broadcast(random_num, src=0)
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank14]:     return func(*args, **kwargs)
+[rank14]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank14]:     work = default_pg.broadcast([tensor], opts)
+[rank14]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank14]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank14]: Last error:
+[rank14]: socketProgress: Connection closed by remote peer c315-011-ib<55362>
+[rank12]: Traceback (most recent call last):
+[rank12]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank12]:     main()
+[rank12]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank12]:     train_segmentor(
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank12]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank12]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank12]:     sampler = DistributedSampler(
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank12]:     self.seed = sync_random_seed(seed, device)
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank12]:     dist.broadcast(random_num, src=0)
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank12]:     return func(*args, **kwargs)
+[rank12]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank12]:     work = default_pg.broadcast([tensor], opts)
+[rank12]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank12]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank12]: Last error:
+[rank12]: socketProgress: Connection closed by remote peer c315-003-ib<51726>
+[rank13]: Traceback (most recent call last):
+[rank13]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank13]:     main()
+[rank13]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank13]:     train_segmentor(
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank13]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank13]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank13]:     sampler = DistributedSampler(
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank13]:     self.seed = sync_random_seed(seed, device)
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank13]:     dist.broadcast(random_num, src=0)
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank13]:     return func(*args, **kwargs)
+[rank13]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank13]:     work = default_pg.broadcast([tensor], opts)
+[rank13]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank13]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank13]: Last error:
+[rank13]: socketProgress: Connection closed by remote peer c315-011-ib<36766>
+[rank15]: Traceback (most recent call last):
+[rank15]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank15]:     main()
+[rank15]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank15]:     train_segmentor(
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank15]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank15]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank15]:     sampler = DistributedSampler(
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank15]:     self.seed = sync_random_seed(seed, device)
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank15]:     dist.broadcast(random_num, src=0)
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank15]:     return func(*args, **kwargs)
+[rank15]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank15]:     work = default_pg.broadcast([tensor], opts)
+[rank15]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank15]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank15]: Last error:
+[rank15]: socketProgress: Connection closed by remote peer c315-011-ib<41174>
+[rank16]: Traceback (most recent call last):
+[rank16]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank16]:     main()
+[rank16]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank16]:     train_segmentor(
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank16]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank16]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank16]:     sampler = DistributedSampler(
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank16]:     self.seed = sync_random_seed(seed, device)
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank16]:     dist.broadcast(random_num, src=0)
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank16]:     return func(*args, **kwargs)
+[rank16]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank16]:     work = default_pg.broadcast([tensor], opts)
+[rank16]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank16]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank16]: Last error:
+[rank16]: socketProgress: Connection closed by remote peer c315-014-ib<53148>
+[rank17]: Traceback (most recent call last):
+[rank17]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank17]:     main()
+[rank17]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank17]:     train_segmentor(
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank17]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank17]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank17]:     sampler = DistributedSampler(
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank17]:     self.seed = sync_random_seed(seed, device)
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank17]:     dist.broadcast(random_num, src=0)
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank17]:     return func(*args, **kwargs)
+[rank17]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank17]:     work = default_pg.broadcast([tensor], opts)
+[rank17]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank17]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank17]: Last error:
+[rank17]: socketProgress: Connection closed by remote peer c315-014-ib<57128>
+[rank20]: Traceback (most recent call last):
+[rank20]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank20]:     main()
+[rank20]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank20]:     train_segmentor(
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank20]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank20]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank20]:     sampler = DistributedSampler(
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank20]:     self.seed = sync_random_seed(seed, device)
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank20]:     dist.broadcast(random_num, src=0)
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank20]:     return func(*args, **kwargs)
+[rank20]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank20]:     work = default_pg.broadcast([tensor], opts)
+[rank20]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank20]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank20]: Last error:
+[rank20]: socketProgress: Connection closed by remote peer c315-015-ib<33876>
+[rank19]: Traceback (most recent call last):
+[rank19]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank19]:     main()
+[rank19]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank19]:     train_segmentor(
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank19]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank19]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank19]:     sampler = DistributedSampler(
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank19]:     self.seed = sync_random_seed(seed, device)
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank19]:     dist.broadcast(random_num, src=0)
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank19]:     return func(*args, **kwargs)
+[rank19]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank19]:     work = default_pg.broadcast([tensor], opts)
+[rank19]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank19]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank19]: Last error:
+[rank19]: socketProgress: Connection closed by remote peer c315-015-ib<55642>
+[rank18]: Traceback (most recent call last):
+[rank18]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank18]:     main()
+[rank18]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank18]:     train_segmentor(
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank18]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank18]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank18]:     sampler = DistributedSampler(
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank18]:     self.seed = sync_random_seed(seed, device)
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank18]:     dist.broadcast(random_num, src=0)
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank18]:     return func(*args, **kwargs)
+[rank18]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank18]:     work = default_pg.broadcast([tensor], opts)
+[rank18]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank18]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank18]: Last error:
+[rank18]: socketProgress: Connection closed by remote peer c315-014-ib<32832>
+[rank21]: Traceback (most recent call last):
+[rank21]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank21]:     main()
+[rank21]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank21]:     train_segmentor(
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank21]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank21]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank21]:     sampler = DistributedSampler(
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank21]:     self.seed = sync_random_seed(seed, device)
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank21]:     dist.broadcast(random_num, src=0)
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank21]:     return func(*args, **kwargs)
+[rank21]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank21]:     work = default_pg.broadcast([tensor], opts)
+[rank21]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank21]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank21]: Last error:
+[rank21]: socketProgress: Connection closed by remote peer c315-015-ib<50120>
+[rank23]: Traceback (most recent call last):
+[rank23]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank23]:     main()
+[rank23]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank23]:     train_segmentor(
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank23]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank23]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank23]:     sampler = DistributedSampler(
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank23]:     self.seed = sync_random_seed(seed, device)
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank23]:     dist.broadcast(random_num, src=0)
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank23]:     return func(*args, **kwargs)
+[rank23]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank23]:     work = default_pg.broadcast([tensor], opts)
+[rank23]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank23]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank23]: Last error:
+[rank23]: socketProgress: Connection closed by remote peer c316-016-ib<39236>
+[rank22]: Traceback (most recent call last):
+[rank22]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank22]:     main()
+[rank22]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank22]:     train_segmentor(
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank22]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank22]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank22]:     sampler = DistributedSampler(
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank22]:     self.seed = sync_random_seed(seed, device)
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank22]:     dist.broadcast(random_num, src=0)
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank22]:     return func(*args, **kwargs)
+[rank22]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank22]:     work = default_pg.broadcast([tensor], opts)
+[rank22]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank22]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank22]: Last error:
+[rank22]: socketProgress: Connection closed by remote peer c316-016-ib<57364>
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank0]:     main()
+[rank0]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank0]:     train_segmentor(
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank0]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank0]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank0]:     sampler = DistributedSampler(
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank0]:     self.seed = sync_random_seed(seed, device)
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank0]:     dist.broadcast(random_num, src=0)
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank0]:     work = default_pg.broadcast([tensor], opts)
+[rank0]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank0]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank0]: Last error:
+[rank0]: socketProgress: Connection closed by remote peer c316-016-ib<46012>
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank1]:     main()
+[rank1]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank1]:     train_segmentor(
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank1]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank1]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank1]:     sampler = DistributedSampler(
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank1]:     self.seed = sync_random_seed(seed, device)
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank1]:     dist.broadcast(random_num, src=0)
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank1]:     return func(*args, **kwargs)
+[rank1]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank1]:     work = default_pg.broadcast([tensor], opts)
+[rank1]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank1]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank1]: Last error:
+[rank1]: socketProgress: Connection closed by remote peer c303-002-ib<33324>
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 292, in <module>
+[rank2]:     main()
+[rank2]:   File "/work/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/train.py", line 281, in main
+[rank2]:     train_segmentor(
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in train_segmentor
+[rank2]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/apis/train.py", line 101, in <listcomp>
+[rank2]:     data_loaders = [build_dataloader(ds, **train_loader_cfg) for ds in dataset]
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/builder.py", line 133, in build_dataloader
+[rank2]:     sampler = DistributedSampler(
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/datasets/samplers/distributed_sampler.py", line 46, in __init__
+[rank2]:     self.seed = sync_random_seed(seed, device)
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/mmseg/core/utils/dist_util.py", line 45, in sync_random_seed
+[rank2]:     dist.broadcast(random_num, src=0)
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank2]:     return func(*args, **kwargs)
+[rank2]:   File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 2205, in broadcast
+[rank2]:     work = default_pg.broadcast([tensor], opts)
+[rank2]: torch.distributed.DistBackendError: NCCL error in: ../torch/csrc/distributed/c10d/NCCLUtils.hpp:275, remote process exited or there was a network error, NCCL version 2.20.5
+[rank2]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank2]: Last error:
+[rank2]: socketProgress: Connection closed by remote peer c303-002-ib<57876>
+E0326 14:06:45.856579 22773473165632 torch/distributed/elastic/multiprocessing/api.py:833] failed (exitcode: 1) local_rank: 2 (pid: 16239) of binary: /work/09816/wertyuui345/ls6/env/VCMamba/bin/python
+Traceback (most recent call last):
+  File "/opt/apps/intel19/python3/3.9.7/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/opt/apps/intel19/python3/3.9.7/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py", line 208, in <module>
+    main()
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/typing_extensions.py", line 2853, in wrapper
+    return arg(*args, **kwargs)
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py", line 204, in main
+    launch(args)
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launch.py", line 189, in launch
+    run(args)
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 133, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/work/09816/wertyuui345/ls6/env/VCMamba/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-03-26_14:06:45
+  host      : c308-002.ls6.tacc.utexas.edu
+  rank      : 5 (local_rank: 2)
+  exitcode  : 1 (pid: 16239)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
