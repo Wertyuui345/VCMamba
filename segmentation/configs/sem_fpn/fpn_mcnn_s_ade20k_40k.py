@@ -12,7 +12,7 @@ model = dict(
         style='pytorch',
         init_cfg=dict(
             type='Pretrained',
-            checkpoint='/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/PlainMambaHybrids2s24Small.pth',
+            checkpoint='/work/09816/wertyuui345/ls6/VCMamba/VCMamba/trained/VCMamba-S.pth',
             resolution = 512,
             ),
         ),
