@@ -3,13 +3,15 @@
 <h3>Bridging Convolutions with Multi-Directional Mamba for Efficient
 Visual Representation</h3>
 
-[Mustafa Munir](https://github.com/mmunir127)<sup>1</sup> \*,[Alex Zhang](https://github.com/Wertyuui345)<sup>1</sup> \*,[Radu Marculescu](https://scholar.google.com/citations?user=ZCmYP5cAAAAJ&hl=en)<sup>1</sup>
+[Mustafa Munir](https://github.com/mmunir127)\*, [Alex Zhang](https://github.com/Wertyuui345)\*, [Radu Marculescu](https://scholar.google.com/citations?user=ZCmYP5cAAAAJ&hl=en)
 
-<sup>1</sup>  University of Texas at Austin
+The University of Texas at Austin
 
-(\*) equal contribution, (<sup>:email:</sup>) corresponding author.
+(\*) equal contribution
 
 ArXiv Preprint (TBD)
+
+ICCV 2nd Workshop on Efficient Computing under Limited Resources: <https://eclr-workshop.github.io/> 
 
 
 </div>
@@ -76,12 +78,11 @@ This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code
 
 ## Citation
 ```bibtex
-@inproceedings{
-Munir2025vcmamba,
-title={{VCM}amba: Bridging Convolutions with Multi-Directional Mamba for Efficient Visual Representation},
-author={Anonymous},
-booktitle={2nd Workshop on Efficient Computing under Limited Resources: Visual Computing},
-year={2025},
-url={https://openreview.net/forum?id=rxzFJ795Bq}
+@InProceedings{Munir2025vcmamba,
+    author    = {Munir, Mustafa and Zhang, Alex, and Marculescu, Radu},
+    title     = {VCMamba: Bridging Convolutions with Multi-Directional Mamba for Efficient Visual Representation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025}
 }
 ```
