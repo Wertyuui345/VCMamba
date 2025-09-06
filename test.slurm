@@ -9,7 +9,6 @@
 #SBATCH -n 6               # Total # of mpi tasks (should be 1 for serial)
 #SBATCH -t 48:00:00        # Run time (hh:mm:ss)
 # #SBATCH --mail-type=all    # Send email at begin and end of job
-# #SBATCH --mail-user=alex.zhang@utexas.edu
 
 # Any other commands must follow all #SBATCH directives...
 # module load cuda/11.3 cudnn nccl

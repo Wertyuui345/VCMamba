@@ -20,32 +20,68 @@ Recent advances in Vision Transformers (ViTs) and State Space Models (SSMs) have
 
 ## Overview
 <div align="center">
-<img src="assets/Hybrid VMamba.png" />
+<img src="assets/Hybrid VMambaBG.png" />
 </div>
 
 ## Prerequisites
 
 - Python 3.9.7
 
-  - `conda create -n your_env_name python=3.9.7`
+```shell
+conda create -n your_env_name python=3.9.7
+```
 
-Requirements TBD
+- torch 2.1.1
+
+```shell
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118`
+```
+
+Requirements 
+```shell
+pip install -U openmim
+mim install mmcv-full
+pip install mamba-ssm
+pip install mlflow fvcore timm
+pip install -r requirements.txt
+```
   
-  
-## Train 
+## Train and Test
+- Train classification
 
-`bash test.slurm`
+```
+bash test.slurm
+```
 
-## Evaluation
+- For eval and load model weights add the following to python launch classification
+```
+--resume "weight_file.pth" --eval
+```
 
-TBD
 
+## Classification
+<div align="center">
+
+| Name | Dataset | Top-1 Acc | Params | GMACs | Weights |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| VCMamba-S | ImageNet-1K | 78.7 | 10.5M | 1.1 | [VCMamba-S](https://huggingface.co/SLDGroup/VCMamba/blob/main/VCMamba-S.pth) |
+| VCMamba-M | ImageNet-1K | 81.5 | 21.0M | 2.3 | [VCMamba-M](https://huggingface.co/SLDGroup/VCMamba/blob/main/VCMamba-M.pth) |
+| VCMamba-B | ImageNet-1K | 82.6 | 31.5M | 4.0 | [VCMamba-B](https://huggingface.co/SLDGroup/VCMamba/blob/main/VCMamba-B.pth) |
+
+</div>
 
 ## Acknowledgement
 
-TBD
-
+This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)).
 
 ## Citation
-
-TBD
+```bibtex
+@inproceedings{
+Munir2025vcmamba,
+title={{VCM}amba: Bridging Convolutions with Multi-Directional Mamba for Efficient Visual Representation},
+author={Anonymous},
+booktitle={2nd Workshop on Efficient Computing under Limited Resources: Visual Computing},
+year={2025},
+url={https://openreview.net/forum?id=rxzFJ795Bq}
+}
+```
