@@ -1,7 +1,5 @@
 <div align="center">
-<h1>Vision CNN Mamba </h1>
-<h3>Bridging Convolutions with Multi-Directional Mamba for Efficient
-Visual Representation</h3>
+<h3>VCMamba: Bridging Convolutions with Multi-Directional Mamba for Efficient Visual Representation</h3>
 
 [Mustafa Munir](https://github.com/mmunir127)\*, [Alex Zhang](https://github.com/Wertyuui345)\*, [Radu Marculescu](https://scholar.google.com/citations?user=ZCmYP5cAAAAJ&hl=en)
 
