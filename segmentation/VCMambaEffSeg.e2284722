@@ -1,5 +1,0 @@
-[mpiexec@c302-001.ls6.tacc.utexas.edu] check_exit_codes (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:121): unable to run bstrap_proxy (pid 1459918, exit code 35072)
-[mpiexec@c302-001.ls6.tacc.utexas.edu] poll_for_event (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:159): check exit codes error
-[mpiexec@c302-001.ls6.tacc.utexas.edu] HYD_dmx_poll_wait_for_proxy_event (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:212): poll for event error
-[mpiexec@c302-001.ls6.tacc.utexas.edu] HYD_bstrap_setup (../../../../../src/pm/i_hydra/libhydra/bstrap/src/intel/i_hydra_bstrap.c:772): error waiting for event
-[mpiexec@c302-001.ls6.tacc.utexas.edu] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:1938): error setting up the boostrap proxies

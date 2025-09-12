@@ -16,7 +16,7 @@ from timm.optim import create_optimizer
 from timm.utils import NativeScaler, get_state_dict, ModelEma
 
 from util import *
-import efficientformer
+import mambacnn
 
 # Lambda Nvidia RTX A6000
 # Office Computer Nvidia GeForce RTX 3090 Ti

@@ -40,18 +40,6 @@ import plain_mamba_layer
 
 #from rope import *
 
-# EfficientFormer_width = {
-#     'l1': [48, 96, 224, 448],
-#     'l3': [64, 128, 320, 512],
-#     'l7': [96, 192, 384, 768],
-# }
-
-# EfficientFormer_depth = {
-#     'l1': [3, 2, 6, 4],
-#     'l3': [4, 4, 12, 6],
-#     'l7': [6, 6, 18, 8],
-# }
-
 EfficientFormer_width = {
     'L': [40, 80, 192, 384],  # 26m 83.3% 6attn
     'S2': [32, 64, 144, 288],  # 12m 81.6% 4attn dp0.02
@@ -653,24 +641,3 @@ def VCMamba_EfficientFormer_S(pretrained=False, **kwargs):
     model.default_cfg = _cfg(crop_pct=0.9)
 
     return model
-
-
-# @register_model
-# def VCMamba_EfficientFormer_CIFAR(pretrained=False, **kwargs):
-#     model = EfficientFormer(
-#         layers=EfficientFormer_depth['l7'],
-#         embed_dims=EfficientFormer_width['l7'],
-#         downsamples=[True, True, True, True],
-#         vit_num=8,
-#         distillation= False,
-#         #drop_path_rate=0.1,
-#         #num_classes = 200,
-#         resolution = 32,
-#         stride = 8,
-#         rms_norm=True, 
-#         residual_in_fp32=True, fused_add_norm=False, final_pool_type='mean', 
-#         if_abs_pos_embed=True, if_rope=False, if_rope_residual=False, bimamba_type="v2", 
-#         if_cls_token=True, if_devide_out=True, use_middle_cls_token=True, if_bidirectional=True, **kwargs)
-#     model.default_cfg = _cfg(crop_pct=0.9, num_classes = 10, input_size= (3, 32, 32))
-
-#     return model

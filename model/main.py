@@ -25,8 +25,7 @@ from augment import new_data_aug_generator
 
 from contextlib import suppress
 
-#import efficientformer_v2
-import efficientformer
+import mambacnn
 
 from torchinfo import summary
 

@@ -1,6 +1,0 @@
-/usr/bin/sh: /scratch/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/MambaCNNRun.sh: No such file or directory
-/usr/bin/sh: /scratch/09816/wertyuui345/ls6/VCMamba/VCMamba/segmentation/MambaCNNRun.sh: No such file or directory
-[mpiexec@c302-004.ls6.tacc.utexas.edu] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:360): write error (Bad file descriptor)
-srun: error: c317-005: task 6: Killed
-srun: Force Terminated StepId=2255375.0
-[mpiexec@c302-004.ls6.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c302-004 exited with status 137

@@ -9,7 +9,7 @@ import torch
 
 import sys
 sys.path.insert(0, '/scratch/09816/wertyuui345/ls6/VCMamba/VCMamba/model/')
-import efficientformer
+import mambacnn
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Get model flops and params')
