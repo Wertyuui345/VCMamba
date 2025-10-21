@@ -7,7 +7,7 @@ The University of Texas at Austin
 
 (\*) equal contribution
 
-[ArXiv Preprint](https://arxiv.org/abs/2509.04669)
+[PDF](https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Munir_VCMamba_Bridging_Convolutions_with_Multi-Directional_Mamba_for_Efficient_Visual_Representation_ICCVW_2025_paper.pdf) | [ArXiv Preprint](https://arxiv.org/abs/2509.04669)
 
 ICCV 2nd Workshop on Efficient Computing under Limited Resources: <https://eclr-workshop.github.io/> 
 
@@ -77,13 +77,12 @@ This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code
 ## Citation
 
 ```bibtex
-@misc{Munir2025vcmamba_arxiv,
-      title={VCMamba: Bridging Convolutions with Multi-Directional Mamba for Efficient Visual Representation}, 
-      author={Mustafa Munir and Alex Zhang and Radu Marculescu},
-      year={2025},
-      eprint={2509.04669},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.04669}, 
+@InProceedings{Munir_2025_ICCV,
+    author    = {Munir, Mustafa and Zhang, Alex and Marculescu, Radu},
+    title     = {VCMamba: Bridging Convolutions with Multi-Directional Mamba for Efficient Visual Representation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025},
+    pages     = {3037-3046}
 }
 ```
