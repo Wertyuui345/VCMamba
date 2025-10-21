@@ -70,6 +70,21 @@ bash test.slurm
 
 </div>
 
+
+
+## Our Other Work
+
+Check out our WACV 2025 paper! [RapidNet](https://github.com/mmunir127/RapidNet-Official)
+
+Check out our LOG 2024 paper! [LogViG](https://github.com/mmunir127/LogViG-Official)
+
+Check out our CVPR 2024 paper! [GreedyViG](https://github.com/SLDGroup/GreedyViG)
+
+Check out our CVPRW 2024 paper! [MobileViGv2](https://github.com/SLDGroup/MobileViGv2)
+
+Check out our CVPRW 2023 paper! [MobileViG](https://github.com/SLDGroup/MobileViG)
+
+
 ## Acknowledgement
 
 This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)).
